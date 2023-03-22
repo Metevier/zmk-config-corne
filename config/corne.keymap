@@ -69,14 +69,14 @@
                 };
                 nav_layer {
 // -----------------------------------------------------------------------------------------
-// | none |     | FN1 | FN2 | FN3 | FN4 |   |     |     |     |     |     | none |
-// | none |     | FN5 | FN6 | FN7 | FN8 |   |LEFT |DOWN | UP  |RIGHT|     | none |
-// | none |     | FN9 | FN10| FN11| FN12|   |     |     |     |     |     | none |
+// | none |     | F1  | F2  | F3  | F4  |   |     |     |     |     |     | none |
+// | none |     | F5  | F6  | F7  | F8  |   |LEFT |DOWN | UP  |RIGHT|     | none |
+// | none |     | F9  | F10 | F11 | F12 |   |     |     |     |     |     | none |
 
                         bindings = <
-   &none &none &kp FN1 &kp FN2  &kp FN3  &kp FN4    &none  &none &none &none &none &none
-   &none &none &kp FN5 &kp FN6  &kp FN7  &kp FN8    &kp LEFT &kp DOWN &kp UP &kp RIGHT &none &none
-   &none &none &kp FN9 &kp FN10 &kp FN11 &kp FN12   &none &none &none &none &none &none
+   &none &none &kp F1 &kp F2  &kp F3  &kp F4    &none  &none &none &none &none &none
+   &none &none &kp F5 &kp F6  &kp F7  &kp F8    &kp LEFT &kp DOWN &kp UP &kp RIGHT &none &none
+   &none &none &kp F9 &kp F10 &kp F11 &kp F12   &none &none &none &none &none &none
                     	    &trans   &trans   &trans      &trans   &trans    &trans
                         >;
                 };
