@@ -37,7 +37,7 @@
    &kp TAB   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
    &kp LCTRL &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
    &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp ESC
-&mt LGUI ESC &lt SYMBOL TAB &ht_bl LCTRL SPACE &mt LSHFT RET &lt NUMBER BSPC &mt RALT F19
+&mt LGUI ESC &lt SYMBOL TAB &mt LCTRL SPACE &mt LSHFT RET &lt NUMBER BSPC &mt RALT F19
                         >;
                 };
 
