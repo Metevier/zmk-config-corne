@@ -38,25 +38,23 @@
             bindings = <&kp>, <&kp>;
         };
 
-        hrm_l: left_homerow_mods {
+        hrm_s: left_homerow_mods {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_MODS_LEFT";
+            label = "HOMEROW_MODS_SHORT";
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <150>;
-            quick-tap-ms = <200>;
-            hold-trigger-key-positions = <6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35>;
+            quick-tap-ms = <0>;
             bindings = <&kp>, <&kp>;
         };
 
-        hrm_r: right_homerow_mods {
+        hrm_l: right_homerow_mods {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_MODS_RIGHT";
+            label = "HOMEROW_MODS_LONG";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <150>;
-            quick-tap-ms = <200>;
-            hold-trigger-key-positions = <0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29>;
+            tapping-term-ms = <220>;
+            quick-tap-ms = <0>;
             bindings = <&kp>, <&kp>;
         };
     };
@@ -72,9 +70,9 @@
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
    &kp TAB   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
-   &kp LCTRL &hrm_l LALT A &hrm_l LGUI S &hrm_l LCTL D &hrm_l LSFT F &kp G   &kp H &hrm_r RSFT J  &hrm_r RCTL K     &hrm_r RGUI L   &hrm_r RALT SEMI &kp SQT
+   &kp LCTRL &hrm_l LALT A &hrm_l LGUI S &hrm_s LCTL D &hrm_s LSFT F &kp G   &kp H &hrm_s RSFT J  &hrm_s RCTL K &hrm_l RGUI L   &hrm_l RALT SEMI &kp SQT
    &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp ESC
-&mt LGUI ESC &lt SYMBOL TAB &ht_bl LCTRL SPACE &mt LSHFT RET &lt NUMBER BSPC &mt RALT F19
+   &kp ESC &lt SYMBOL TAB &kp SPACE &kp RET &lt NUMBER BSPC &kp F19
                         >;
                 };
 
